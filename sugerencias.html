@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="./Sty/sugerencias.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="geografia.html">Geografia</a>
+            <a href="historia.html">Historia</a>
+            <a href="fotos.html">Fotografias</a>
+            <a href="acerca.html">Acerca de mi</a>
+            <a href="sugerencias.html">Sugerencias</a>
+        </nav>
+        <h1>Coghlan</h1>
+    </header>
+    <h3>Sugerencias</h3>
+    <form action="https://formspree.io/f/xwkywwrl" method="POST">
+        <label for="txt_Apellido" id="s_Apellido">Apellido:</label>
+        <input type="text" required maxlength="20" name="txt_Apellido" id="txt_Apellido">
+        <label for="txt_Nombre" id="s_Nombre">Nombre:</label>
+        <input type="text" required maxlength="20" name="txt_Nombre" id="txt_Nombre">
+        <label for="txt_Pais">Pais:</label>
+        <input type="text" required maxlength="20" name="txt_Pais" id="txt_Pais">
+        <label id="s_mail">
+            Ingrese su email:
+            <input type="email" required name="correo">
+        </label>
+        <label for="chk_Interesado" id="importante">Estoy interesado en recibir información adicional</label>
+        <input name="chk_Interesado" type="checkbox" value="1">
+        <label>
+            Ingrese sus comentarios:
+            <textarea name="mensaje"></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    margin: auto;
+    background-image: url("../Img/papel.jpeg");
+    /* background-color: #cccccc; */
+}
+
+#s_mail, #s_Apellido, #s_Nombre{
+    color: red;
+}
+
+#importante{
+    color:darkred;    
+    font-weight: bold;
+}
